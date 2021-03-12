@@ -28,7 +28,7 @@ while True:
     Dogecoin = str(input("Введите адрес кошелька Dogecoin:\n"))  # "DADWGC********************3K4ZrEtrZ"
     Bitcoin = str(input("Введите адрес кошелька Dogecoin:\n"))
     while True:
-        check = input("\nВсё верно?\nНомер: " + Phone + "\nApi_id: " + Api_id + "\nApi_hash: " + Api_hash + "\nКошельки: " + Litecoin + "   " + Dogecoin +
+        check = input("\nВсё верно?\nНомер: " + Phone + "\nApi_id: " + Api_id + "\nApi_hash: " + Api_hash + "\nКошельки: " + Litecoin + "\t" + Dogecoin + "\t" + Bitcoin +
         "\nЕсли необходимо что-то изменить, введите 'phone', 'id', 'hash', 'D', 'B' или 'L' без ковычек, иначе просто нажмите Enter...\n")
         check = check.lower()
         if check == 'phone':
